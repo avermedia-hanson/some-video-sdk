@@ -41,3 +41,12 @@ markdown_extensions:
 extra:
   version:
     provider: mike
+
+nav:
+  - Home:
+    - index.md
+  - Getting Started: getting-started.md
+  - Examples:
+    - examples/index.md
+    - examples/use-case-1.md
+    - examples/use-case-2.md
