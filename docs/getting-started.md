@@ -43,6 +43,9 @@ Similar to the `deploy` command, the `--branch` and `--push` options are also av
 
 After all these steps, the documentation should be properly deployed to the target branch.
 
+!!! note
+    To make the versioning feature of `mkdocs-material` work, the `site_url` in the `mkdocs.yml` file must be configured correctly.
+
 ## Test the documentation locally
 
 To properly test the documentation locally, we should stay on the main branch (instead of `gh-pages`) and call the following command:
