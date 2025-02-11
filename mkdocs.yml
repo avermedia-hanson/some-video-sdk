@@ -50,3 +50,5 @@ nav:
     - examples/index.md
     - examples/use-case-1.md
     - examples/use-case-2.md
+  - API Reference:
+    - api/index.html
