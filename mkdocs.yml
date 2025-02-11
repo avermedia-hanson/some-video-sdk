@@ -3,6 +3,23 @@ site_url: https://avermedia-hanson.github.io/docs-proto/softwares/some-video-sdk
 
 theme:
   name: "material"
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -52,3 +69,4 @@ nav:
     - examples/use-case-2.md
   - API Reference:
     - api/index.html
+  - Back to Main Site: https://avermedia-hanson.github.io/docs-proto/
