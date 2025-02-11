@@ -1,6 +1,6 @@
 PROJECT_NAME           = Some Video SDK
-PROJECT_NUMBER         = 0.2
-PROJECT_BRIEF          = "SDK for audio processing"
+PROJECT_NUMBER         = 0.3
+PROJECT_BRIEF          = "SDK for video processing"
 
 DISABLE_INDEX          = NO
 GENERATE_TREEVIEW      = YES
